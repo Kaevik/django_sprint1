@@ -53,11 +53,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'blogicum.urls'
 
-TEMPLATES_DIR = BASE_DIR /'html'
+TEMPLATES_DIR = BASE_DIR / 'html'
 
 STATICFILES_DIRS = [
-    BASE_DIR /'html',
-] 
+    BASE_DIR / 'html',
+]
 
 TEMPLATES = [
     {
